@@ -6,7 +6,7 @@ module.exports = {
   title: '욱이네',
   subtitle: '무늬만 개발자, 피드백 부탁드립니다.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'wooks94',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
