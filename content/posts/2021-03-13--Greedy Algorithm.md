@@ -4,7 +4,7 @@ date: "2021-03-13"
 template: "post"
 draft: false
 slug: "Greedy-Algorithm"
-category: "Statistics"
+category: "Coding Test"
 tags:
   - "#Algorithm"
   - "#Coding Test"
