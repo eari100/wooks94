@@ -102,3 +102,46 @@ def solution3(N, K):
   # solution2(1000, 7) 
 ```
 반복문 마지막에 N //= K를 실행하여 기하급수적으로 N의 크기를 줄여주기 때문에 O(log n) 로그 시간 복잡도로 만들어줄 수 도 있기 때문이다.
+
+#### 곱하기 혹은 더하기
+
+각 자리가 숫자로만 이뤄진 문자열 S가 주어졌을 때, 각 숫자 사이에 곱셈기호 또는 덧셈기호를 넣어 결과적으로 만들어질 수 있는 가장 큰 수를 구하시오.
+
+```python
+def solution(S):
+  result = int(S[0])
+  
+  for i in range(1, len(S)) :
+    num = int(S[i])
+    if num <= 1 or result <= 1 :
+      result += num
+    else :
+      result *= num
+    
+  return result
+
+# solution('02984')
+```
+#### 모험가 길드
+
+모험가 길드장인 동빈이는 모험가 그룹을 안전하게 구성하고자 공포도가 X인 모험가는 반드시 X명 이상으로
+구성한 모험가 그룹에 참여해야 여행을 떠날 수 있도록 규정했다.
+N명의 모험가에 대한 정보가 주어졌을때, 여행을 떠날 수 있는 그룹 수의 최댓값을 구하라.
+
+```python
+def solution(data):
+  data.sort()
+
+  count = 0
+  result = 0
+
+  for i in data:
+    count += 1
+    if count >= i:
+      result += 1
+      count = 0
+
+  return result
+
+solution([2,3,1,2,2])
+```
