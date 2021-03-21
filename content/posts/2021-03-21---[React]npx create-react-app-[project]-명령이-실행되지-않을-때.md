@@ -1,6 +1,6 @@
 ---
 title: "[React]npx create-react-app [project] 명령이 실행되지 않을 때"
-date: "2021-03-19"
+date: "2021-03-21"
 template: "post"
 draft: false
 slug: "[React]npx create-react-app-[project]-명령이-실행되지-않을-때"
@@ -9,6 +9,8 @@ tags:
   - "#React"
 description: "yarnpkg add --exact react react-dom react-scripts --cwd [directory]/[project] has failed. 오류 발생 시 npm install -g create-react-app를 사용합시다"
 ---
+
++ 실행 환경 : windows10
 
 ```bash
 $ npx create-react-app [project]
