@@ -6,7 +6,7 @@ draft: false
 slug: "Pythonic-code"
 category: "Coding Test"
 tags:
-  - "#python"
+  - "#Python"
 description: "같은 기능을 수행하는 코드 중 가장 Pythonic한 코드들"
 ---
 

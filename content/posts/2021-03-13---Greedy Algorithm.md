@@ -8,7 +8,7 @@ category: "Coding Test"
 tags:
   - "#Algorithm"
   - "#Coding Test"
-  - "#python"
+  - "#Python"
 description: "매 선택에서 지금 이 순간 당장 최적인 답을 선택하여 적합한 결과를 도출하자"
 ---
 
