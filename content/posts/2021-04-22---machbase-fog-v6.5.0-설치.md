@@ -4,9 +4,9 @@ date: "2021-04-22"
 template: "post"
 draft: false
 slug: "machbase-fog-v6.5.0-설치"
-category: "Machbase"
+category: "machbase"
 tags:
-  - "#Machbase"
+  - "#machbase"
 description: ""
 ---
 
