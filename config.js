@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
   title: '욱이네',
-  subtitle: '무늬만 개발자, 피드백 부탁드립니다.',
+  subtitle: '재욱의 연습장',
   copyright: '© All rights reserved.',
   disqusShortname: 'wooks94',
   postsPerPage: 4,
@@ -23,7 +23,7 @@ module.exports = {
   author: {
     name: '욱이네',
     photo: '/profile.jpg',
-    bio: '무늬만 개발자, 피드백 부탁드립니다.',
+    bio: '재욱의 연습장',
     contacts: {
       email: 'eari100@naver.com',
       facebook: '',
