@@ -9,7 +9,7 @@ tags:
   - "#Coding Test"
   - "#leetcode"
   - "#Python"
-description: ""
+description: "Hash Table을 이용하여 시간복잡도를 줄입니다."
 ---
 
 [문제 풀러 가기](https://leetcode.com/problems/two-sum/)
