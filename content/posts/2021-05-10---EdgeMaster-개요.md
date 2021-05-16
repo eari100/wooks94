@@ -4,7 +4,7 @@ date: "2021-05-10"
 template: "post"
 draft: false
 slug: "EdgeMaster-개요"
-category: "EdgeMaster"
+category: "machbase"
 tags:
   - "#EdgeMaster"
   - "#machbase"
