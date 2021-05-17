@@ -25,12 +25,12 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
                 return [i, j]
 ```
 
-Brute-force search를 통해 풀면 시간복잡도가 O(n^2)이 됩니다.
+Brute-force search를 통해 풀면 시간복잡도가 O(n^2)이 됩니다.  
 개선이 필요했습니다.
 
 2. Hash Table
 
-Hash Table은 조회 시간이 O(1)입니다.  
+Hash Table은 조회가 빠른 자료구조입니다.  
 따라서 dictionary를 활용하기로 했습니다.
 
 ```Python
@@ -49,5 +49,5 @@ target-num가 nums_dict에 존재한다면 답을 구할 수 있습니다.
 
 #### reference
 
-[[파이썬 알고리즘 인터뷰] 7번(#1) Two Sum](https://www.youtube.com/watch?v=zG-ecTqsO4U&list=LL&index=4)
+[[파이썬 알고리즘 인터뷰] 7번(#1) Two Sum](https://www.youtube.com/watch?v=zG-ecTqsO4U&list=LL&index=4)  
 [[자료구조 알고리즘] LeetCode 1. Two Sum 설명 & 자바로 구현](https://www.youtube.com/watch?v=FHphOv2mmIA&list=LL&index=9)
