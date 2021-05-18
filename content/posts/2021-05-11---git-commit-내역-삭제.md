@@ -30,6 +30,8 @@ Date:   Wed May 5 22:45:50 2021 +0900
 
 ```
 
+그러나 기존 commit ID 값도 변경이 되기 때문에 commit ID 이력을 관리하는 상황인 경우 주의가 필요합니다.
+
 #### reference
 
 [7.6 Git 도구 - 히스토리 단장하기](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0)  
